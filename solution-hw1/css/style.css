@@ -1,25 +1,26 @@
-.logo-img {
+#logo-img {
     width: 400px;
 }
 
-.top-bar {
+#top-bar {
     display: flex;
 }
 
-.top-bar-left {
+#top-bar-left {
     width: auto;
     flex-grow: 1;
     margin-top: 30px;
     margin-left: 30px;
 }
 
-.top-bar-right {
+#top-bar-right {
     margin-left: auto;
     width: 820px;
     flex-shrink: 0;
     text-align: right;
 }
 
+/* tab nav */
 nav a {
     padding-right: 100px;
     color: black;
@@ -32,23 +33,27 @@ nav a {
     font-weight: bold;
 }
 
+/* bar under tab nav */
 hr {
     border-width: 5px;
     border: 3px solid black;
 }
 
+/* "Our hand-made cinnamon rolls" */
 h1 {
     font-weight: normal;
     text-align: left;
     font-family: Verdana;
 }
 
+/* products div container */
 .options {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* each product box */
 .roll {
     width: 350px;
     height: 600px;
@@ -63,6 +68,7 @@ h1 {
     border: 3px solid black;
 }
 
+/* product title */
 h2 {
     font-family: Verdana;
     font-weight: normal;
@@ -70,6 +76,31 @@ h2 {
     margin-left: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+/* Glazing and Pack Size */
+p {
+    margin-right: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: Verdana;
+}
+
+/* glazing dropdown */
+.choices {
+    display: flex;
+    padding: 20px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.glazes {
+    height: 40px;
+    font-size: 18px;
+    padding-left: 3px;
+    margin-left: 18px;
+    border: solid 2px black;
 }
 
 /* Radio button style is from https://codepen.io/w3programmings/pen/zzRKpy */
@@ -89,29 +120,14 @@ h2 {
     background-color: lightgray;
 }
 
-p {
-    margin-right: 40px;
-    margin-bottom: 10px;
-    font-size: 18px;
+/* price */
+h3 {
     margin-left: 10px;
-    font-family: Verdana;
+    font-size: 24px;
+    margin-right: 55px;
 }
 
-.choices {
-    display: flex;
-    padding: 20px;
-    text-align: left;
-    flex-wrap: wrap;
-}
-
-.glazes {
-    height: 40px;
-    font-size: 18px;
-    padding-left: 3px;
-    margin-left: 18px;
-    border: solid 2px black;
-}
-
+/* add to cart */
 button {
     border: solid 2px black;
     height: 50px;
@@ -128,10 +144,4 @@ button:hover {
 
 button:hover ~ #products {
     background-color: yellow;
-}
-
-h3 {
-    margin-left: 10px;
-    font-size: 24px;
-    margin-right: 55px;
 }
