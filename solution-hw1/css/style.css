@@ -1,0 +1,137 @@
+.logo-img {
+    width: 400px;
+}
+
+.top-bar {
+    display: flex;
+}
+
+.top-bar-left {
+    width: auto;
+    flex-grow: 1;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.top-bar-right {
+    margin-left: auto;
+    width: 820px;
+    flex-shrink: 0;
+    text-align: right;
+}
+
+nav a {
+    padding-right: 100px;
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+#products {
+    font-weight: bold;
+}
+
+hr {
+    border-width: 5px;
+    border: 3px solid black;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: left;
+    font-family: Verdana;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.roll {
+    width: 350px;
+    height: 600px;
+    margin: 10px;
+    text-align: center;
+    display: block;
+}
+
+.roll-img {
+    width: 300px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+h2 {
+    font-family: Verdana;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Radio button style is from https://codepen.io/w3programmings/pen/zzRKpy */
+.sizes label {
+    display: inline-block;
+    width: 20px;
+    padding: 7px;
+    border: solid 2px black;
+    transition: all 0.3s;
+}
+
+.sizes input[type="radio"] {
+    display: none;
+}
+
+.sizes input[type="radio"]:checked + label {
+    background-color: lightgray;
+}
+
+p {
+    margin-right: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: Verdana;
+}
+
+.choices {
+    display: flex;
+    padding: 20px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.glazes {
+    height: 40px;
+    font-size: 18px;
+    padding-left: 3px;
+    margin-left: 18px;
+    border: solid 2px black;
+}
+
+button {
+    border: solid 2px black;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 18px;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+button:hover ~ #products {
+    background-color: yellow;
+}
+
+h3 {
+    margin-left: 10px;
+    font-size: 24px;
+    margin-right: 55px;
+}
