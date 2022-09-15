@@ -1,11 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
   <meta charset="UTF-8">
-  <title>Page Title</title>
+
+  <head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
   
   <body>
+    <!--Page Header w/ logo and nav bar-->
+    <div id="top-bar">
+      <div id="top-bar-left">
+        <img id="logo-img" src="assets/logo-01.svg" alt="Bun Bun Bake Shop logo"/>
+      </div>
+      <div id="top-bar-right">
+        <nav>
+          <br>
+          <br>
+          <a id="products" href="#">PRODUCTS</a>
+          <a href="#">CART</a>
+          <br>
+          <br>
+          <br>
+        </nav>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Our hand-made cinnamon rolls</h1>
+      </div>
+    </div>
+    <br>
+    <br>
 
-    <h1>I am the solution to HW2!</h1>
+    <!--Products offerred by Bun Bun Shop-->
+    <div class="options">
+      <!--Original Cinnamon Roll-->
+      <div class="roll">
+        <img class="roll-img" src="assets/original-cinnamon-roll.jpg" alt="Original Cinnamon Roll"/>
+        <h2>Original cinnamon roll</h2>
+        <div class="choices">
+          <p>Glazing:</p>
+          <select name="glazes" class="glazes">
+            <option value="Keep original">Keep original</option>
+            <option value="Sugar milk">Sugar milk</option>
+            <option value="Vanilla milk">Vanilla milk</option>
+            <option value="Double chocolate">Double chocolate</option>
+          </select>
+          <p>Pack Size:</p>
+          <!--Radio button style is from https://codepen.io/w3programmings/pen/zzRKpy -->
+          <div class="sizes">
+            <input type="radio" id="1-or" value="1" name="or" checked="checked">
+            <label for="1-or">1</label>
 
+            <input type="radio" id="3-or" value="3" name="or">
+            <label for="3-or">3</label>
+
+            <input type="radio" id="6-or" value="6" name="or">
+            <label for="6-or">6</label>
+
+            <input type="radio" id="12-or" value="12" name="or">
+            <label for="12-or">12</label>
+          </div>
+          <h3>$ 2.49</h3>
+          <button type="button">Add to Cart</button>
+        </div>
+      </div>
+      <!--Apple Cinnamon Roll-->
+      <div class="roll">
+        <img class="roll-img" src="assets/apple-cinnamon-roll.jpg" alt="Apple Cinnamon Roll"/>
+        <h2>Apple cinnamon roll</h2>
+        <div class="choices">
+          <p>Glazing:</p>
+          <select name="glazes" class="glazes">
+            <option value="Keep original">Keep original</option>
+            <option value="Sugar milk">Sugar milk</option>
+            <option value="Vanilla milk">Vanilla milk</option>
+            <option value="Double chocolate">Double chocolate</option>
+          </select>
+          <p>Pack Size:</p>
+          <!--Radio button style is from https://codepen.io/w3programmings/pen/zzRKpy -->
+          <div class="sizes">
+            <input type="radio" id="1-ap" value="1" name="ap" checked="checked">
+            <label for="1-ap">1</label>
+
+            <input type="radio" id="3-ap" value="3" name="ap">
+            <label for="3-ap">3</label>
+
+            <input type="radio" id="6-ap" value="6" name="ap">
+            <label for="6-ap">6</label>
+
+            <input type="radio" id="12-ap" value="12" name="ap">
+            <label for="12-ap">12</label>
+          </div>
+          <h3>$ 3.49</h3>
+          <button type="button">Add to Cart</button>
+        </div>
+      </div>
+      <!--Raisin Cinnamon Roll-->
+      <div class="roll">
+        <img class="roll-img" src="assets/raisin-cinnamon-roll.jpg" alt="Raisin Cinnamon Roll"/>
+        <h2>Raisin cinnamon roll</h2>
+        <div class="choices">
+          <p>Glazing:</p>
+          <select name="glazes" class="glazes">
+            <option value="Keep original">Keep original</option>
+            <option value="Sugar milk">Sugar milk</option>
+            <option value="Vanilla milk">Vanilla milk</option>
+            <option value="Double chocolate">Double chocolate</option>
+          </select>
+          <p>Pack Size:</p>
+          <!--Radio button style is from https://codepen.io/w3programmings/pen/zzRKpy -->
+          <div class="sizes">
+            <input type="radio" id="1-ra" value="1" name="ra" checked="checked">
+            <label for="1-ra">1</label>
+
+            <input type="radio" id="3-ra" value="3" name="ra">
+            <label for="3-ra">3</label>
+
+            <input type="radio" id="6-ra" value="6" name="ra">
+            <label for="6-ra">6</label>
+
+            <input type="radio" id="12-ra" value="12" name="ra">
+            <label for="12-ra">12</label>
+          </div>
+          <h3>$ 2.99</h3>
+          <button type="button">Add to Cart</button>
+        </div>
+      </div>
+      <!--Walnut Cinnamon Roll-->
+      <div class="roll">
+        <img class="roll-img" src="assets/walnut-cinnamon-roll.jpg" alt="Walnut Cinnamon Roll"/>
+        <h2>Walnut cinnamon roll</h2>
+        <div class="choices">
+          <p>Glazing:</p>
+          <select name="glazes" class="glazes">
+            <option value="Keep original">Keep original</option>
+            <option value="Sugar milk">Sugar milk</option>
+            <option value="Vanilla milk">Vanilla milk</option>
+            <option value="Double chocolate">Double chocolate</option>
+          </select>
+          <p>Pack Size:</p>
+          <!--Radio button style is from https://codepen.io/w3programmings/pen/zzRKpy -->
+          <div class="sizes">
+            <input type="radio" id="1-wa" value="1" name="wa" checked="checked">
+            <label for="1-wa">1</label>
+
+            <input type="radio" id="3-wa" value="3" name="wa">
+            <label for="3-wa">3</label>
+
+            <input type="radio" id="6-wa" value="6" name="wa">
+            <label for="6-wa">6</label>
+
+            <input type="radio" id="12-wa" value="12" name="wa">
+            <label for="12-wa">12</label>
+          </div>
+          <h3>$ 3.49</h3>
+          <button type="button">Add to Cart</button>
+        </div>
+      </div>
+      <!--Double Chocolate Cinnamon Roll-->
+      <div class="roll">
+        <img class="roll-img" src="assets/double-chocolate-cinnamon-roll.jpg" alt="Double Chocolate Cinnamon Roll"/>
+        <h2>Double-chocolate cinnamon roll</h2>
+        <div class="choices">
+          <p>Glazing:</p>
+          <select name="glazes" class="glazes">
+            <option value="Keep original">Keep original</option>
+            <option value="Sugar milk">Sugar milk</option>
+            <option value="Vanilla milk">Vanilla milk</option>
+            <option value="Double chocolate">Double chocolate</option>
+          </select>
+          <p>Pack Size:</p>
+          <!--Radio button style is from https://codepen.io/w3programmings/pen/zzRKpy -->
+          <div class="sizes">
+            <input type="radio" id="1-ch" value="1" name="ch" checked="checked">
+            <label for="1-ch">1</label>
+
+            <input type="radio" id="3-ch" value="3" name="ch">
+            <label for="3-ch">3</label>
+
+            <input type="radio" id="6-ch" value="6" name="ch">
+            <label for="6-ch">6</label>
+
+            <input type="radio" id="12-ch" value="12" name="ch">
+            <label for="12-ch">12</label>
+          </div>
+          <h3>$ 3.99</h3>
+          <button type="button">Add to Cart</button>
+        </div>
+      </div>
+      <!--Strawberry Cinnamon Roll-->
+      <div class="roll">
+        <img class="roll-img" src="assets/strawberry-cinnamon-roll.jpg" alt="Strawberry Cinnamon Roll"/>
+        <h2>Strawberry cinnamon roll</h2>
+        <div class="choices">
+          <p>Glazing:</p>
+          <select name="glazes" class="glazes">
+            <option value="Keep original">Keep original</option>
+            <option value="Sugar milk">Sugar milk</option>
+            <option value="Vanilla milk">Vanilla milk</option>
+            <option value="Double chocolate">Double chocolate</option>
+          </select>
+          <p>Pack Size:</p>
+          <!--Radio button style is from https://codepen.io/w3programmings/pen/zzRKpy -->
+          <div class="sizes">
+            <input type="radio" id="1-st" value="1" name="st" checked="checked">
+            <label for="1-st">1</label>
+
+            <input type="radio" id="3-st" value="3" name="st">
+            <label for="3-st">3</label>
+
+            <input type="radio" id="6-st" value="6" name="st">
+            <label for="6-st">6</label>
+
+            <input type="radio" id="12-st" value="12" name="st">
+            <label for="12-st">12</label>
+          </div>
+          <h3>$ 3.99</h3>
+          <button type="button">Add to Cart</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
