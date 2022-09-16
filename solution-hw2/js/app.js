@@ -59,7 +59,6 @@ function addToCart(g, s) {
     var packPrice = ((basePrice[s] + glazingAdaption[glaze.value]) * sizeAdaption[num]).toFixed(2);
     var r = new Roll(s, glaze.value, num, packPrice);
     cart.push(r);
-    console.log(cart);
     updatePopUp();
 }
 
@@ -72,7 +71,6 @@ function updatePopUp() {
         text += ("Pack of " + cart[i].rollPackSize + "\n");
         text += ("Price: $" + cart[i].packPrice + "\n\n");
     }
-    console.log(text);
     cartText.innerText = text;
     setTimeout(function() {
         var items = 0;
